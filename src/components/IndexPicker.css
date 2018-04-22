@@ -1,0 +1,28 @@
+.index-picker {
+  display: flex;
+  padding: 50px 120px 20px;
+}
+.index-picker-index {
+  flex-grow: 1;
+  padding: 20px 40px 10px;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 2;
+  color: #999;
+}
+.index-picker-index .title {
+  color: #333;
+}
+.index-picker-index .value {
+  font-size: 16px;
+  color: #333;
+}
+.index-picker-index .data {
+  display: flex;
+  justify-content: space-between;
+}
+.index-picker-index.active {
+  border-top: 2px solid #2062e6;
+  border-left: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+}
